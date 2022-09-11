@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+.mark {
+    margin:2.5rem auto;
+    text-align: center;
+    color:blue;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.container1 {
+    text-align: center;
+    background-color: aliceblue;
+    margin: 2rem;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.container1:hover {
+    border-color: blueviolet;
+}
+.container2 {
+    text-align: center;
+    background-color: aliceblue;
+    margin: 2rem;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.container2:hover {
+    border-color: blueviolet;
+}
+.container3 {
+    text-align: center;
+    background-color: aliceblue;
+    margin: 2rem;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.container3:hover {
+    border-color: blueviolet;
+}
+div {
+    margin: 1rem;
+}
+.sem {
+    width: 7rem;
+}
+.container3 label {
+    margin: 1rem;
+}
+h2 {
+    margin: 1.5rem;
+    color: red;
+}
+input {
+    border-radius: 8px;
+}
+button {
+    width: 7rem;
+    height: 2.5rem;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media only screen and (max-width:600px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .mark {
+        margin-top: 1rem;
+    }
+    .container1 {
+        margin: 1rem;
+    }
+}
